@@ -1,0 +1,43 @@
+@media(max-width: 1400px){
+  .akmal{
+    flex-direction: column;
+    align-content: space-around;
+  }
+  .akmal__left{
+    margin-bottom: 5px;
+  }
+  .section__akmal{
+    flex-direction: column;
+}
+}
+
+@media(max-width:752px){
+  .akmal__right-title{
+    font-size: 20px;
+  }
+  .right__bottom{
+    font-size: 11px;
+  }
+  .col__text {
+    font-size: 12px;
+  }
+  .col__bottom-text{
+    font-size: 12px;
+  }
+  .title{
+    font-size: 18px;
+  }
+  .akmal__lorem-text{
+    font-size: 12px;
+  }
+  .akmal__portren-title{
+    font-size: 40px;
+  }
+  .portren__item-text{
+    font-size: 16px;
+  }
+  .portren__item{
+    width: 250px;
+    height: 250px;
+  }
+}
