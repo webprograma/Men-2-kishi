@@ -1,14 +1,348 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-:root{
+
+:root {
   --Play: 'Playfair Display';
   --Ptsa: 'PT Sans'
 }
-ul,li,a{
+
+ul,
+li,
+a {
   text-decoration: none;
   list-style: none;
+}
+
+.alijon {
+  background: #000;
+}
+
+.alijon__collection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collection__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.collevtion__title {
+  font-family: var(--Play);
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+
+}
+
+.line {
+  width: 120px;
+  height: 1px;
+  background: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.collection__text {
+  max-width: 471px;
+  color: #FFFFFF;
+  font-family: var(--Ptsa);
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 61px;
+}
+
+.collection__button {
+  font-family: var(--Ptsa);
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: 1px solid white;
+  widows: 311px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.collection__button:hover {
+  background: violet;
+}
+
+.line__ali {
+  display: flex;
+  flex-direction: column;
+}
+
+.alijon__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 81px;
+}
+
+
+
+.item__title-ali {
+  font-family: var(--Play);
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.line__item {
+  width: 120px;
+  height: 1px;
+  background: white;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.alijon__block {
+  width: 260px;
+  height: 405px;
+}
+
+.alijon__img {
+  background: #191B1C;
+  width: 260px;
+  height: 325px;
+}
+
+.alijon__img-in {
+  margin-top: 55px;
+  margin-left: 23px;
+}
+
+.alijon__money {
+  font-family: var(--Play);
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  margin-top: 25px;
+}
+
+.money__text {
+  font-family: var(--Play);
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
+.alijon__brand {
+  background: #0F0F0F;
+  width: 100%;
+  min-height: 362px;
+  margin-top: 150px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand__title {
+  color: white;
+  font-family: var(--Play);
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.coco__content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.alijon__item2 {
+  background-image: url(../img/BG.png);
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.alijon__item2-content {
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+
+.magazin__title {
+  font-family: var(--Play);
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.magazin__text {
+  width: 350px;
+  color: white;
+  font-family: var(--Ptsa);
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.kategori {
+  width: 276px;
+  flex-wrap: wrap;
+}
+
+.kategori__title {
+  font-family: var(--Play);
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.rasilka__title {
+  font-family: var(--Play);
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.button1 {
+  background: #0F0F0F;
+  width: 70px;
+  height: 41px;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  transition: 0.5s;
+}
+
+.button2 {
+  background: #0F0F0F;
+  color: white;
+  border: none;
+  width: 98px;
+  height: 41px;
+  transition: 0.5s;
+}
+
+.button3 {
+  background: #0F0F0F;
+  color: white;
+  border: none;
+  height: 41px;
+  width: 79px;
+  transition: 0.5s;
+}
+
+.button4 {
+  background: #0F0F0F;
+  color: white;
+  border: none;
+  height: 41px;
+  width: 164px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.button5 {
+  background: #0F0F0F;
+  color: white;
+  border: none;
+  height: 41px;
+  width: 91px;
+  transition: 0.5s;
+}
+
+.button1:hover,.button2:hover,.button3:hover,.button4:hover,.button5:hover {
+  background: chocolate;
+  
+} 
+
+.rasilka__text {
+  width: 350px;
+  color: white;
+  font-family: var(--Ptsa);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.input {
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  width: 210px;
+  height: 42px;
+  padding-left: 20px;
+}
+
+input::placeholder{
+  color: #D0D0D0;
+  font-family: var(--Ptsa);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.input__button {
+  width: 140px;
+  height: 42px;
+  background: #0F0F0F;
+  border: none;
+  color: white;
+  font-family: var(--Ptsa);
+  font-weight: 400;
+  font-size: 14px;
+  transition: 0.5s;
+  margin-top: 38px;
+}
+
+.input__button:hover {
+  background: red;
+}
+
+.footer {
+  background: #000;
+  width: 100%;
+  height: 50px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 17px;
+}
+
+.footer__item1 {
+  font-family: var(--Ptsa);
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+  margin-left: 70px;
+}
+
+.footer__item2 {
+  color: white;
+  font-family: var(--Ptsa);
+  font-weight: 700;
+  font-size: 12px;
+  margin-right: 70px;
+}
+
+@media(max-width:1200px) {
+  .rasilka {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
